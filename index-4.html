@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<title>Contact</title>
+	<meta charset="utf-8">
+	<meta name = "format-detection" content = "telephone=no" />
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/contact-form.css">
+
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery-migrate-1.2.1.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/TMForm.js"></script>
+	<script src="js/modal.js"></script>
+	<!--[if (gt IE 9)|!(IE)]><!-->
+	<script src="js/jquery.mobile.customized.min.js"></script>
+	<script src="js/wow.js"></script>
+	<script>
+		$(document).ready(function () {
+			if ($('html').hasClass('desktop')) {
+				new WOW().init();
+			}
+		});
+	</script>
+	<!--<![endif]-->
+	<!--[if lt IE 8]>
+	<div style=' clear: both; text-align:center; position: relative;'>
+	 <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+		 <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+	 </a>
+	</div>
+	<![endif]-->
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+	<![endif]-->
+	<!--[if IE]>
+		<link rel="stylesheet" type="text/css" media="screen" href="css/ie-8.css">
+	<![endif]-->
+	</head>
+<body class="index-4">
+<!--==============================header=================================-->
+<header id="header">
+	<div id="stuck_container">
+		<div class="container">
+			<div class="row">
+				<div class="grid_12">
+					<div class="social">
+						<a href="https://www.linkedin.com/in/eliothsu" target="_blank"><span class="bd-ra fa fa-linkedin"></span></a>
+						<a href="https://github.com/eliothsu" target="_blank"><span class="bd-ra fa fa-github"></span></a>
+						<a href="https://www.facebook.com/eliot.j.hsu" target="_blank"><span class="bd-ra fa fa-facebook"></span></a>
+					</div>
+					<h1><a href="index.html">Eliot Hsu<span>Exploring, coding, and having fun.</span></a></h1>
+					<nav>
+						<ul class="sf-menu">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="index-2.html">About Me</a></li>
+							<li><a href="index-3.html">Exhibit</a></li>
+							<li class="current"><a href="index-4.html">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<!--=======content================================-->
+
+<section id="content">
+	<div class="full-width-container block-1">
+		<div class="container">
+			<div class="row">
+<!--
+				<div class="grid_5">
+					<form id="contact-form">
+						<div class="contact-form-loader"></div>
+							<header>
+								<h2><span>Get in touch!</span></h2>
+							</header>
+							<fieldset>
+									<label class="name">
+										<span class="text">Your Name:</span>
+										<input type="text" name="name" placeholder="" value="" data-constraints="@Required @JustLetters" />
+											<span class="empty-message">*This field is required.</span>
+											<span class="error-message">*This is not a valid name.</span>
+									</label>
+									<label class="email">
+										<span class="text">Your Email:</span>
+										<input type="text" name="email" placeholder="" value="" data-constraints="@Required @Email" />
+										<span class="empty-message">*This field is required.</span>
+										<span class="error-message">*This is not a valid email.</span>
+									</label>
+									<label class="phone">
+										<span class="text">Subject:</span>
+							              <input type="text" name="state" placeholder="" data-constraints="@JustLetters" />
+									</label>
+									<label class="message">
+										<span class="text">Message:</span>
+										<textarea name="message" placeholder="" data-constraints="@Required @Length(min=20,max=99999)"></textarea>
+										<span class="empty-message">*This field is required.</span>
+										<span class="error-message">*The message is too short.</span>
+									</label>
+								<div class="cont_btn">
+									<a href="#" data-type="submit" class="btn">send</a>
+								</div>
+						</fieldset> 
+						<div class="modal fade response-message">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+										<h4 class="modal-title">Modal title</h4>
+									</div>
+									<div class="modal-body">
+										Your message has been sent! We will be in touch soon.
+									</div>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+-->
+				<div class="grid_2"></div>
+				<div class="grid_6 preffix_1">
+					<div>
+						<header>
+							<h2><span>Contact Information</span></h2>
+						</header>
+						<p class="el-1">
+							If you'd like to get in touch, the best way to contact me is through one of the emails listed below. Either should work, but UC Berkeley's spam filters are notoriously overzealous.
+							<br><br>
+							I'm currently residing in UC Berkeley's on-campus Foothill dormitory.<br><br><br>
+						</p>
+					</div>
+					<div class="grid_3 alpha">
+						<div class="address">
+							<p>Eliot Hsu
+							<br>2700 Hearst Ave.
+							<br>Suite 8D34F
+							<br>Berkeley, CA 94720</p>
+						</div>
+					</div>
+					<div class="grid_3">
+						<div class="address">
+							<p>Cell phone: +1 408 642 8396
+							<br>Email: <a href="mailto:eliothsu@berkeley.edu" class="mail">eliothsu@berkeley.edu</a>
+							<br>Alternate: <a href="mailto:eh7739@gmail.com" class="mail">eh7739@gmail.com</a>
+							</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--=======footer=================================-->
+	<footer id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="grid_12">
+					<div class="copyright">
+						<pre>© <span id="copyright-year"></span></pre>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

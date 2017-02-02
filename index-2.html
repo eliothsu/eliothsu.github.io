@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<title>About Me</title>
+	<meta charset="utf-8">
+	<meta name = "format-detection" content = "telephone=no" />
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/touchTouch.css">
+	<link rel="stylesheet" href="css/camera.css">
+
+	<script src="js/jquery.js"></script>
+	<script src="js/camera.js"></script>
+	<script src="js/touchTouch.jquery.js"></script>
+	<script src="js/jquery-migrate-1.2.1.js"></script>
+	<script src="js/jquery.stellar.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/packery.pkgd.min.js"></script>
+	<!--[if (gt IE 9)|!(IE)]><!-->
+	<script src="js/jquery.mobile.customized.min.js"></script>
+	<script src="js/wow.js"></script>
+	<script>
+		$(document).ready(function () {
+			if ($('html').hasClass('desktop')) {
+				new WOW().init();
+			}
+		});
+	</script>
+	<!--<![endif]-->
+	<!--[if lt IE 8]>
+	<div style=' clear: both; text-align:center; position: relative;'>
+	 <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+		 <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+	 </a>
+	</div>
+	<![endif]-->
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+	<![endif]-->
+	<!--[if IE]>
+		<link rel="stylesheet" type="text/css" media="screen" href="css/ie-8.css">
+	<![endif]-->
+	</head>
+<body class="index-2">
+<!--==============================header=================================-->
+<header id="header">
+	<div id="stuck_container">
+		<div class="container">
+			<div class="row">
+				<div class="grid_12">
+					<div class="social">
+						<a href="https://www.linkedin.com/in/eliothsu" target="_blank"><span class="bd-ra fa fa-linkedin"></span></a>
+						<a href="https://github.com/eliothsu" target="_blank"><span class="bd-ra fa fa-github"></span></a>
+						<a href="https://www.facebook.com/eliot.j.hsu" target="_blank"><span class="bd-ra fa fa-facebook"></span></a>
+					</div>
+					<h1><a href="index.html">Eliot Hsu<span>Exploring, coding, and having fun.</span></a></h1>
+					<nav>
+						<ul class="sf-menu">
+							<li><a href="index.html">Home</a></li>
+							<li class="current"><a href="index-2.html">About Me</a></li>
+							<li><a href="index-3.html">Exhibit</a></li>
+							<li><a href="index-4.html">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<!--=======content================================-->
+<section id="content">
+	<div class="full-width-container parallax-block" data-stellar-background-ratio="0.5">
+		<span class="el-2">Hello!</span>
+		<span class="el-1">My name is Eliot Hsu, and I'm a current freshman in UC Berkeley's EECS program.</span>
+		<span class="el-1">I love learning, adventuring, and creating!</span>
+		<a href="res/Eliot_Hsu_Resume.pdf" target="_blank" class="btn">résumé</a>
+	</div>
+	<div class="full-width-container block-1">
+		<div class="container">
+			<div class="row">
+				<div class="grid_12">
+					<header>
+						<h2><span><a name="projects">My Projects</a></span></h2>
+					</header>
+				</div>
+				<div id="touch_gallery">
+					<div class="grid_4">
+						<div class="img_block"><a href="https://devpost.com/software/bearmax" target="_blank"><img src="img/Bearmax-about-me-crop.jpg" alt="Projects"><i></i></a></div>
+						<article>
+							<h4><a href="https://devpost.com/software/bearmax" target="_blank">Bearmax</a></h4>
+							<p><a href="https://devpost.com/software/bearmax" target="_blank">Hello! I am Bearmax, your personal healthcare companion. I diagnose diseases by analyzing natural language descriptions of symptoms via Facebook Messenger, using IBM Watson's Natural Language Classifier, API Medic, and a Heroku-deployed Messenger chatbot.</a></p>
+						</article>
+					</div>
+					<div class="grid_4">
+						<div class="img_block"><a href="https://devpost.com/software/outsidein-59u6l0" target ="_blank"><img src="img/OutsideIn-about-me-crop.jpg" alt="Projects"><i></i></a></div>
+						<article>
+							<h4><a href="https://devpost.com/software/outsidein-59u6l0" target ="_blank">OutsideIn</a></h4>
+							<p><a href="https://devpost.com/software/outsidein-59u6l0" target ="_blank">OutsideIn is a "smart" diary that takes in daily journal entries, analyzing and storing each entry into a MySQL backend using IBM Watson's Tone Analyzer. OutsideIn plots  emotions over time and produces meaningful and easy-to-understand visualizations.</a></p>
+						</article>
+					</div>
+					<div class="grid_4">
+						<div class="img_block"><a href="https://github.com/eliothsu/eliothsu.github.io" target="_blank"><img src="img/website-about-me.jpg" alt="Projects"><i></i></a></div>
+						<article>
+							<h4><a href="https://github.com/eliothsu/eliothsu.github.io" target="_blank">This website!</a></h4>
+							<p><a href="https://github.com/eliothsu/eliothsu.github.io" target="_blank">I had an educational and entertaining time modifying and personalizing my website from a template HTML+CSS+JS design.</a></p>
+						</article>
+					</div>
+					<div class="grid_4">
+						<img src="img/VR@B.jpg" alt="Projects">
+						<article>
+							<h4>VR Halloween Game</h4>
+							<p>Designed and created a halloween game in virtual reality for the HTC Vive using Unity and Maya on a small team in UC Berkeley's VR@B club.</p>
+						</article>
+					</div>
+					<div class="grid_4">
+						<img src="img/Ubuntu_logo.jpg" alt="Projects">
+						<article>
+							<h4>Ubuntu Netbooting</h4>
+							<p>Set up centrally managed ethernet-booted thin clients with a central server hosted on a virtual machine.</p>
+						</article>
+					</div>
+					<div class="grid_4">
+						<img src="img/desktop.jpg" alt="Projects">
+						<article>
+							<h4>Personal Desktops</h4>
+							<p>After researching desktop components online, I built and maintained two desktop computers from components.</p>
+						</article>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</section>
+
+<!--=======footer=================================-->
+<footer id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="grid_12">
+				<div class="copyright">
+					<pre>© <span id="copyright-year"></span></pre>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer> 
+<script>
+	$(document).ready(function() { 
+			if ($('html').hasClass('desktop')) {
+				$.stellar({
+					horizontalScrolling: false,
+					verticalOffset: 20,
+					resposive: true,
+					hideDistantElements: true,
+				});
+			}
+		});
+</script>
+<!--
+<script>
+	$(function(){
+		$('#touch_gallery a').touchTouch();
+	});
+</script>
+-->
+
+</body>
+</html>
