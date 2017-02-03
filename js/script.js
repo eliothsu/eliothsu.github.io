@@ -46,14 +46,15 @@ $(function () {
 include('js/jquery.mousewheel.min.js');
 include('js/jquery.simplr.smoothscroll.min.js');
 
-$(function () { 
-  if ($('html').hasClass('desktop')) {
-      $.srSmoothscroll({
-        step:150,
-        speed:800
-      });
-  }   
-});
+// So this code was in the template but breaks for all touchpad input
+//$(function () { 
+//  if ($('html').hasClass('desktop')) {
+//      $.srSmoothscroll({
+//        step:150,
+//        speed:800
+//      });
+//  }
+//});
 
 /* Copyright Year
 ========================================================*/
@@ -87,9 +88,9 @@ $(function(){
 	
 	scaleFix();
 	// Menu Android
-	if(window.orientation!=undefined){
+	if(window.orientation!==undefined){
   var regM = /ipod|ipad|iphone/gi,
-   result = ua.match(regM)
+   result = ua.match(regM);
   if(!result) {
    $('.sf-menu li').each(function(){
     if($(">ul", this)[0]){
@@ -102,7 +103,7 @@ $(function(){
       }
      );
     } 
-   })
+   });
   }
  }
 });
@@ -111,7 +112,7 @@ var ua=navigator.userAgent.toLocaleLowerCase(),
  result = ua.match(regV),
  userScale="";
 if(!result){
- userScale=",user-scalable=0"
+ userScale=",user-scalable=0";
 }
 document.write('<meta name="viewport" content="width=device-width,initial-scale=1.0'+userScale+'">')
 
@@ -122,4 +123,4 @@ $('.btn').each(function(){
       var title = $(this).html();
       $(this).addClass('custom_hover');
       $(this).html('<span><span>'+title+'</span><strong>'+title+'</strong></span>');
-})
+});
