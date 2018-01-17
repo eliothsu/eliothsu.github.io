@@ -1,208 +1,262 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+
+<html>
 	<head>
-	<title>Home</title>
-	<meta charset="utf-8">
-	<meta name = "format-detection" content = "telephone=no" />
-	<link rel="icon" href="img/facebook_octopus.png" type="image/x-icon">
-	<link rel="stylesheet" href="css/grid.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/touchTouch.css">
-	<link rel="stylesheet" href="css/camera.css">
+		<title> </title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
 
-	<script src="js/jquery.js"></script>
-	<script src="js/jquery-migrate-1.2.1.js"></script>
-	<script src="js/camera.js"></script>
-	<script src="js/touchTouch.jquery.js"></script>
-	<script src="js/jquery.stellar.js"></script>
-	<script src="js/script.js"></script>
-	<!--[if (gt IE 9)|!(IE)]><!-->
-	<script src="js/jquery.mobile.customized.min.js"></script>
-	<script src="js/wow.js"></script>
-	<script>
-		$(document).ready(function () {
-			if ($('html').hasClass('desktop')) {
-				new WOW().init();
-			}
-		});
-	</script>
-	<!--<![endif]-->
-	<!--[if lt IE 8]>
-	<div style=' clear: both; text-align:center; position: relative;'>
-	 <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
-		 <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
-	 </a>
-	</div>
-	<![endif]-->
-	<!--[if lt IE 9]>
-		<script src="js/html5shiv.js"></script>
-		<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
-	<![endif]-->
-	<!--[if IE]>
-		<link rel="stylesheet" type="text/css" media="screen" href="css/ie-8.css">
-	<![endif]-->
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/jquery.scrollgress.min.js"></script>
+		<script src="js/jquery.scrolly.min.js"></script>
+		<script src="js/jquery.slidertron.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-xlarge.css" />
+			<link rel="stylesheet" href="css/style-personal.css" />
+		</noscript>
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
-<body class="index">
-<!--==============================header=================================-->
-<header id="header">
-	<div id="stuck_container">
-		<div class="container">
-			<div class="row">
-				<div class="grid_12">
-					<div class="social">
-						<a href="https://www.linkedin.com/in/eliothsu" target="_blank"><span class="bd-ra fa fa-linkedin"></span></a>
-						<a href="https://github.com/eliothsu" target="_blank"><span class="bd-ra fa fa-github"></span></a>
-						<a href="https://www.facebook.com/eliot.j.hsu" target="_blank"><span class="bd-ra fa fa-facebook"></span></a>
-					</div>
+	<body class="landing">
+
+		<!-- Header -->
+			<header id="header" class="alt skel-layers-fixed">
+				<h1><a href="index.html">Eliot Hsu's website <span></span></a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
 <!--
-					<div class="row">
-						<div class="grid_4"></div>
-						<div class="grid_4">
-							<h1><a href="index.html">Eliot Hsu<span>Exploring, coding, and having fun.</span></a></h1>
-						</div>
-						<div class="grid_3">
-							<div class="img_block"><img src="img/Eliot_Hsu_Portrait.jpg" alt="Eliot Hsu Portrait"></div>
-						</div>
-					</div>
+						<li>
+							<a href="" class="icon fa-angle-down">Layouts</a>
+							<ul>
+								<li><a href="left-sidebar.html">Left Sidebar</a></li>
+								<li><a href="right-sidebar.html">Right Sidebar</a></li>
+								<li><a href="no-sidebar.html">No Sidebar</a></li>
+								<li>
+									<a href="">Submenu</a>
+									<ul>
+										<li><a href="#">Option 1</a></li>
+										<li><a href="#">Option 2</a></li>
+										<li><a href="#">Option 3</a></li>
+										<li><a href="#">Option 4</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li><a href="elements.html">Elements</a></li>
 -->
-					<h1><a href="index.html">Eliot Hsu<span>Exploring, coding, and having fun.</span></a></h1>
-					<nav>
-						<ul class="sf-menu">
-							<li class="current"><a href="index.html">Home</a></li>
-							<li><a href="index-2.html">About Me</a></li>
-							<li><a href="index-3.html">Exhibit</a></li>
-							<li><a href="index-4.html">Contact</a></li>
-						</ul>
-					</nav>
-				</div>
-			</div>
-		</div>
-	</div>
-</header>
+					</ul>
+				</nav>
+			</header>
 
-<!--=======content================================-->
+		<!-- Banner -->
+			<section id="banner">
+				<div class="container inner">
+					<div class="row wrapper">
+						<div class="item col-xs-7 col-lg-7">
+							<h2>Eliot Hsu</h2>
+							<p>Explorer and efficient developer</p>
+							<ul class="actions">
+								<li><a target="_blank" href="https://github.com/eliothsu" class="button big">github</a></li>
+								<li><a target="_blank" href="https://www.linkedin.com/in/eliothsu/" class="button big">linkedin</a></li>
+								<li><a target="_blank" href="res/Eliot_Hsu_Resume.pdf" class="button big">resume</a></li>
+							</ul>
+						</div>
+						<div class="item col-xs-5 col-lg-5">
+							<img src="images/Eliot_Hsu_Portrait.jpg" class="img-fluid" alt="Portrait" />
+						</div>
+					</div>
+				</div>
+			</section>
 
-<section id="content">
-	<div class="full-width-container block-1">
-		<div class="camera_container">
-			<div id="camera_wrap">
-				<div class="item" data-src="img/main_background.jpg">
-					<div class="camera_caption fadeIn">
-						<h3>"You are the music while the music lasts." -T.S. Eliot</h3>
-					</div>
-				</div>
-				<div class="item" data-src="img/main_background.jpg">
-					<div class="camera_caption fadeIn">
-						<h3>"You are the music while the music lasts." -T.S. Eliot</h3>
-					</div>
-				</div>
-				<div class="item" data-src="img/main_background.jpg">
-					<div class="camera_caption fadeIn">
-						<h3>"You are the music while the music lasts." -T.S. Eliot</h3>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="full-width-container block-2">
-		<div class="container">
-			<div class="row">
-				<div class="grid_12">
-					<header>
-						<h2><span>My projects</span></h2>
+		<!-- One -->
+			<section id="one" class="wrapper style1">
+				<div class="container">
+					<header class="major">
+						<h2>Accessibility, Scripting, and Optimization</h2>
+						<p>
+							Welcome to my website! I'm a second-year EECS student at UC Berkeley.<br />
+							With a strong personal scripting background, winning accessiblity-focused hackathon projects,<br />
+							and 95th+ percentile in-class database and algorithmic projects, I strive to create innovative<br />
+							and effective code in every pursuit. Have a peek at my skills and experiences below!
+						</p>
 					</header>
-					<div class="isotope clearfix">
-						<a href="index-2.html#projects" class="item-1 w-1"><div class="img_block"><img src="img/Bearmax-crop.jpg" alt="img"></div><i>+</i></a>
-						<a href="index-2.html#projects" class="item-2 w-2"><div class="img_block"><img src="img/OutsideIn-scaled.jpg" alt="img"></div><i>+</i></a>
-						<a href="index-2.html#projects" class="item-3 w-1"><div class="img_block"><img src="img/project-logos.jpg" alt="img"></div><i>+</i></a>
+					<div class="slider">
+						<span class="nav-previous"></span>
+						<div class="viewer">
+							<div class="reel">
+								<div class="slide">
+									<img src="images/wizard_project_blur.PNG" alt="" />
+								</div>
+								<div class="slide">
+									<img src="images/facebook_event_puller_blur.PNG" alt="" />
+								</div>
+								<div class="slide">
+									<img src="images/bearmax_cropped_blur.PNG" alt="" />
+								</div>
+							</div>
+						</div>
+						<span class="nav-next"></span>
 					</div>
-					<a href="index-2.html#projects" class="btn">more info</a>
 				</div>
-			</div>
-		</div>
-	</div>
-	<div class="full-width-container block-3">
-		<div class="container">
-			<div class="row">
-				<div class="grid_6 offset_1">
-					<div class="img_block"><img src="img/Eliot_Hsu_Portrait.jpg" alt=""></div>
-				</div>
-				<div class="grid_5">
-					<header>
-						<h2><span>Hi!</span></h2>
+			</section>
+			
+		<!-- Two -->
+			<section id="two" class="wrapper style2">
+				<div class="container">
+					<header class="major">
+						<h1>Highlighted Skills</h1>
 					</header>
-					<p class="first">Welcome to my website!</p>
-					<p class="second">I’m a motivated and cheerful freshman in EECS with well-rounded experiences, and I love opportunities to bring my skills to life. With winning projects inside and outside hackathons and vigorous coursework, my technical knowledge is quickly expanding, and I’m constantly seeking adventures to broaden my perspective.</p>
-					<a href="index-2.html" class="btn">more</a>
+					<div class="row uniform">
+						<div class="4u 6u(2) 12u$(3)">
+							<section class="feature fa-save">
+								<h3>Algorithm Design</h3>
+								<p>From web scripting to task and shift scheduling, I excel at designing and coding unique and efficient algorithms, and scored in the top 2% of my algorithms class</p>
+							</section>
+						</div>
+						<div class="4u 6u$(2) 12u$(3)">
+							<section class="feature fa-briefcase">
+								<h3>Leadership and Teamwork</h3>
+								<p>As a chair of the Tech committee of Berkeley PBL, a business club, I lead my committee in activities and work alongside my co-chair to teach fundamental CS curriculum</p>
+							</section>
+						</div>
+						<div class="4u$ 6u(2) 12u$(3)">
+							<section class="feature fa-code">
+								<h3>Optimization</h3>
+								<p>Through practice and incredible curriculum, I've developed a knack for optimization, with class-leading Database and NP-Complete approximation projects</p>
+							</section>
+						</div>
+						<div class="4u 6u$(2) 12u$(3)">
+							<section class="feature fa-desktop">
+								<h3>Accessibility</h3>
+								<p>An issue that is very dear to my heart and family, accessibility is a focus for me - especially in my winning hackathon projects, such as Bearmax for CalHacks 3.0</p>
+							</section>
+						</div>
+						<div class="4u$ 6u$(2) 12u$(3)">
+							<section class="feature fa-cog">
+								<h3>Adaptibility and Communication</h3>
+								<p>A broad CS experience helps me pick up new tools and languages with speed; involvement in a business club bolsters my communication and team skills</p>
+							</section>
+						</div>
+						<div class="4u 6u(2) 12u$(3)">
+							<section class="feature fa-camera-retro">
+								<h3>Scripting</h3>
+								<p>With deep and varied experience starting from a young age, I use shorter scripts to solve everyday problems - and to kickstart and glue together larger projects</p>
+							</section>
+						</div>
+					</div>
 				</div>
-			</div>
-		</div>
-	</div>
-	<div class="full-width-container block-4  parallax-block" data-stellar-background-ratio="0.5">
-		<span class="el-1">My best</span>
-		<span class="el-2">photos</span>
-		<a href="index-3.html" class="btn">have a look</a>
-	</div>
-</section>
+			</section>
+			
+		<!-- Three -->
+			<section id="three" class="wrapper style1">
+				<div class="container">
+					<header class="major">
+						<h2>Selected Projects</h2>
+						<p>Here are a few of my projects that I am most proud of, showcasing my technical<br />
+						skills put to meaningful use and my mastery of fundamental CS theory and practices.</p>
+					</header>
+					<div class="row">
+						<div class="4u 6u(2) 12u$(3)">
+							<article class="box post">
+								<a href="#" class="image fit"><img src="images/lightspeed_resize.PNG" alt="" /></a>
+								<h3>Lightspeed</h3>
+								<p>Personal task scheduler built from scratch that efficiently organizes daily activities around time constraints using the Google Calendar API and Simulated Annealing</p>
+								<ul class="actions">
+									<li><a href="http://www.google.com" class="button">Learn More</a></li>
+								</ul>
+							</article>
+						</div>
+						<div class="4u 6u$(2) 12u$(3)">
+							<article class="box post">
+								<a href="#" class="image fit"><img src="images/hearthstone_crop.png" alt="" /></a>
+								<h3>Hearthstone Deck Predictor</h3>
+								<p>Data analytics exploration, using a public JSON dataset to produce a simple Python n-gram model to predict an opponent's likely future moves in an online card game</p>
+								<ul class="actions">
+									<li><a href="#" class="button">Learn More</a></li>
+								</ul>
+							</article>
+						</div>
+						<div class="4u$ 6u(2) 12u$(3)">
+							<article class="box post">
+								<a href="#" class="image fit"><img src="images/bearmax_edit.png" alt="" /></a>
+								<h3>Bearmax</h3>
+								<p>A winner in two categories at CalHacks, Bearmax diagnoses diseases based on natural language descriptions of symptoms over Facebook Messenger</p>
+								<ul class="actions">
+									<li><a href="#" class="button">Learn More</a></li>
+								</ul>
+							</article>
+						</div>
+						<div class="4u 6u$(2) 12u$(3)">
+							<article class="box post">
+								<a href="#" class="image fit"><img src="images/facebook_event_puller_edit.png" alt="" /></a>
+								<h3>Facebook Event Puller</h3>
+								<p>Used JavaScript web scraping to create a Google Chrome extension that populates a Google Calendar event based on a Facebook event</p>
+								<ul class="actions">
+									<li><a href="#" class="button">Learn More</a></li>
+								</ul>
+							</article>
+						</div>
+						<div class="4u 6u(2) 12u$(3)">
+							<article class="box post">
+								<a href="#" class="image fit"><img src="images/outside_in.PNG" alt="" /></a>
+								<h3>OutsideIn</h3>
+								<p>A runner-up at HackDavis, OutsideIn provides mental health tracking from daily journals by calling IBM Watson's Tone Analyzer in a smooth frontend</p>
+								<ul class="actions">
+									<li><a href="#" class="button">Learn More</a></li>
+								</ul>
+							</article>
+						</div>
+						<div class="4u$ 6u$(2) 12u$(3)">
+							<article class="box post">
+								<a href="#" class="image fit"><img src="images/pbl_edit.png" alt="" /></a>
+								<h3>Berkeley PBL Tech</h3>
+								<p>As a leader of a small committee, I teach weekly curriculum spanning scripting, web development, data analytics, CS fundamentals, and more.</p>
+								<ul class="actions">
+									<li><a href="#" class="button">Learn More</a></li>
+								</ul>
+							</article>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+		<!-- CTA -->
+			<section id="cta" class="wrapper style3">
+				<h2>View my full resume</h2>
+				<ul class="actions">
+					<li><a href="res/Eliot_Hsu_Resume.pdf" class="button big">resume</a></li>
+				</ul>
+			</section>
+			
+		<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+					<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+					<li><a href="#" class="icon fa-envelope"><span class="label">Envelope</span></a></li>
+				</ul>
+				<ul class="menu">
+					<li><a href="#">FAQ</a></li>
+					<li><a href="#">Terms of Use</a></li>
+					<li><a href="#">Privacy</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+				<span class="copyright">
+					&copy; Copyright 2018. All rights reserved.
+				</span>
+			</footer>
 
-<!--=======footer=================================-->
-<footer id="footer">
-	<div class="container">
-		<div class="row">
-		<div class="grid_12">
-			<div class="copyright">
-				<pre>© <span id="copyright-year"></span></pre>
-			</div>
-		</div>
-		</div>
-	</div>
-</footer>
-<script>
-	jQuery(function(){
-		jQuery('#camera_wrap').camera({
-			height: '68.125%',
-			thumbnails: false,
-			pagination: true,
-			fx: 'simpleFade',
-			loader: 'none',
-			hover: false,
-			navigation: false,
-			playPause: false,
-			minHeight: "975px",
-		});
-	});
-</script>
-<!--script>
-	var $container = $('.isotope');
-	// init
-	$container.on( 'click', '.iso-item', function( event ) {
-	  // change size of item via class
-	  $( event.target ).toggleClass('gigante');
-	  // trigger layout
-	  $container.packery();
-	  /*$container.packery({
-		  itemSelector: 'iso-.item',
-		  gutter: 10*/
-
-	});
-</script-->
-<script>
-	$(document).ready(function() { 
-			if ($('html').hasClass('desktop')) {
-				$.stellar({
-					horizontalScrolling: false,
-					verticalOffset: 20,
-					resposive: true,
-					hideDistantElements: true,
-				});
-			}
-		});
-</script>
-<script>
-	$(function(){
-		$('.isotope a').touchTouch();
-	});
-</script>
-
-</body>
+	</body>
 </html>
