@@ -148,7 +148,7 @@
 					.on('resize load', function() {
 						$sliders.trigger('slidertron_reFit');
 					})
-					.trigger('resize');				
+					.trigger('resize');
 			
 			}
 		
