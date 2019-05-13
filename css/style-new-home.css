@@ -1,0 +1,87 @@
+#main {
+  /*background: url(../images/website-background.jpg);*/
+  /* Full height */
+  height: 100vh;
+  width: 100vw;
+
+  /* Center and scale the image nicely */
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+#multicolor {
+  font-size: 0px; line-height: 0%; width: 0px;
+  border-top: 50vh solid red;
+  border-bottom: 50vh solid #fc0;
+  border-left: 50vw solid blue;
+  border-right: 50vw solid green;
+  position: absolute;
+  display: none;
+}
+
+#info-top {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 5vh;
+}
+#info-left {
+  position: absolute;
+  right: 50vw;
+  left: 10vw;
+  top: 45vh;
+  z-index: 2;
+}
+#info-right {
+  position: absolute;
+  left: 50vw;
+  right: 10vw;
+  top: 45vh;
+  z-index: 3;
+}
+#info-bottom {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 65vh;
+}
+#info-bottom-2 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 75vh;
+}
+
+.center {
+  text-align: center;
+}
+
+.btn-circle {
+  border-radius: 50%;
+}
+
+.fa-circle {
+  color: black;
+}
+
+.small-img {
+  min-width: 200px;
+  max-width: 200px;
+  min-height: 200px;
+  max-height: 200px;
+  object-fit: cover;
+}
