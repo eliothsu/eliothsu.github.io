@@ -52,7 +52,7 @@ http.onreadystatechange = function() {
         for (var i = 0; i < elements.length; i++) {
             elements[i].style.color = newcolor;
         }
-        $("#info-bottom-2").css("color", newcolor);
+        $("b").css("color", newcolor);
     }
 }
 
