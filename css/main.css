@@ -1,0 +1,10 @@
+.center {
+    margin: auto;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-40%);
+    -webkit-transform: translateX(-50%) translateY(-40%);
+    transform: translateX(-50%) translateY(-40%);
+    text-align: center;
+}
